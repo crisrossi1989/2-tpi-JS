@@ -1,0 +1,174 @@
+*{
+    margin: 0; 
+    padding: 0;}
+body{
+    margin:0;
+    padding:0;}
+section{
+    margin:0;
+    padding:0;
+    padding-bottom: 2%;
+    margin-bottom: 2%;}
+
+#navbar-top{
+    background-color: rgb(53,58,64);
+    margin:0px; 
+    width: 100%;
+    box-sizing: border-box;
+    text-align: end;
+    padding-left: 2.5%; 
+    padding-right: 2.5%;
+    font-size: x-large;}
+    
+    #logo-codo-a-codo{
+        width: 150px; height: auto;}
+    
+    #txt-icon{
+        font-size:x-large;}
+
+#container-banner{
+    border-radius: 0%;}
+    
+    #banner-img{
+        background-image: linear-gradient(rgba(0,0,0,0.5),
+        rgba(0,0,0, 0.5));
+        background-repeat: no-repeat;
+        overflow: auto;}
+    
+    #banner-row{
+        margin: 0%;
+        padding: 0%;}
+        
+        #banner-col-2{
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            justify-content: center;
+            margin-right: 8%;
+            text-align: end;}
+            
+            #btn-comprar-tikets{
+                background-color: rgb(40,167,70);}
+
+#container-txt-top{/*titulos x3*/
+    width: 100%;
+    padding-bottom: 0.5%;
+    text-align: center;}
+    
+    .txt-titulo-1{
+        font-size: medium;
+        font-style: normal;
+        text-transform: uppercase;
+        margin-bottom:0rem;}
+    
+    .txt-titulo-2{
+        font-size:xx-large;
+        font-style:normal;
+        font-weight:bold;
+        text-transform: uppercase;
+        margin-bottom:0rem;}
+
+#container-cards-oradores{
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;}
+    
+    #cards-oradores h5{
+        font-size: x-large;
+        padding-bottom: 0.5%;}
+
+#container-honolulu-card{
+    will-change: 100%;
+    background-color: rgb(53, 58, 64);
+    font-size: medium;
+    font-weight:lighter;}
+    
+    #honolulu-col-1{
+        align-items: center;
+        justify-content: center;}
+    
+        #honolulu-img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;}
+
+    #honolulu-col-2 .card-title{
+        padding-left: 2%;
+        padding-right: 2%;}
+
+    #honolulu-col-2 .card-text{
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 0.5%;
+        font-size: larger;
+        font-weight: lighter;}
+
+    #btn-conoce-mas{
+        margin-left: 2%;}    
+
+#container-form-orador{
+    width: 100%; 
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;}
+
+    .txt-titulo-form{        
+        font-size: larger;}
+    
+    #form-coment{
+        margin-top: 2%;}
+    
+    #floatingTextarea2{
+        height: 200px;}
+
+    #subrayado-ci {
+        border-bottom:1px dotted #9999CC;}
+    
+    #btn-enviar,
+    #btnResumen,
+    #btnBorrar{
+        background-color: rgb(150,201,62);
+        border: none;
+        font-size: large;}
+
+#container-venta-tickets{
+    width: 100%;}
+    
+    #container-cards-tickets{
+        padding-left: 15%;
+        padding-right: 15%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;}
+
+    #container-form-tickets{
+        padding-left: 10%;
+        padding-right: 10%;
+        align-items: center;
+        justify-content: center;
+        text-align: start;}
+
+        #container-botones,
+        #container-cantidad-categoria,
+        #container-correo, 
+        #container-alert{
+            margin-top: 1%;}
+
+#navbar-bottom{
+    width: 100%;
+    background-color: rgb(30,68,89);
+    padding-left: 14%;
+    padding-right: 14%;
+    text-align: center;
+    align-items: center;
+    font-size:larger;}
+
+    #navbar-bottom a{
+        color: aliceblue;
+        font-weight: normal;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;}

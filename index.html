@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="conferencia de prestigiosos oradores en Buenos Aires">
+    <meta name="keywords"
+        content="codo a codo, conferencia, oradores, steve jobs, bill gates, ada lovelace, caba, Buenos Aires">
+    <meta name="author" content="Cristian Alberto Rossi, crisrossi1989@gmail.com">
+    <title>TPI JS FrontEnd CaC 2022 2C</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- CSS only 5.2.2 ÚLTIMA VERSIÓN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper ÚLTIMA VERSIÓN 5.2.2-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <!--JS-tickets-->
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!--navbar-top-->
+    <nav id="navbar-top" class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img id="logo-codo-a-codo" src="./img/codoacodo.png" alt="Logo codo a codo"
+                class="d-inline-block align-text-center"><span id="txt-icon">Conf. Bs As</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#banner-conferencia">La conferencia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#los-oradores">Los oradores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#fecha-y-lugar">Fecha y Lugar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#conviértete-en-orador">Conviértete en orador</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-success" href="#tickets">Comprar tickets</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <!--banner-palacio-aguas-corrientes-->
+        <section id="banner-conferencia">
+            <div id="container-banner" class="card text-bg-dark d-flex">
+                <img src="img/ba1.jpg" class="card-img" alt="Palacio de Aguas Corrientes Bs As">
+                <div id="banner-img" class="card-img-overlay d-flex">
+                    <div id="banner-row" class="row">
+                        <div id="banner-col-1" class="col">
+                            <!--columna 1 vacía-->
+                        </div>
+                        <div id="banner-col-2" class="col-md-6 card-group">
+                            <!--columna 2-->
+                            <div id="card-conf" class="card-block">
+                                <h1 class="card-title">Conf Bs As</h1>
+                                <p class="text fs-4">Bs As llega por primera vez a Argentina. Un evento para compartir
+                                    con nuestra comunidad el conocimiento y experiencia de los expertos que están
+                                    creando el futuro de Internet. Ven a conocer a miembros del evento, a otros
+                                    estudiantes de Codo
+                                    a Codo y los oradores de primer nivel que tenemos para tí. Te esperamos!
+                                </p>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                    <a href="#conviértete-en-orador" id="btn-quiero-ser-orador" type="button"
+                                        class="btn btn-outline-light me-md-2 fs-5">Quiero
+                                        ser orador</a>
+                                    <a href="#tickets" id="btn-comprar-tikets" type="button"
+                                        class="btn btn-success fs-5">Comprar
+                                        tickets</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!--tarjetas-oradores-->
+        <section id="los-oradores">
+            <!--título-->
+            <div id="container-txt-top" class="container">
+                <p class="txt-titulo-1">conoce a los</p>
+                <p class="txt-titulo-2">oradores</p>
+            </div>
+            <div id="container-cards-oradores" class="row row-cols-1 row-cols-md-3">
+                <!--tarjeta-steve-jobs-->
+                <div class="col">
+                    <div class="card border-light">
+                        <a href="#" target="_blank">
+                            <img src="./img/steve.jpg" class="card-img-top" alt="foto Steve Jobs">
+                        </a>
+                        <div class="card-body">
+                            <span class="badge text-bg-warning">JavaScript</span>
+                            <span class="badge text-bg-info">React</span>
+                            <h5 class="card-title">Steve Jobs</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+                                voluptatibus
+                                perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellat ut similique
+                                incidunt?
+                                Ullam nobis beatae, corporis facilis veniam magni ratione!</p>
+                        </div>
+                    </div>
+                </div>
+                <!--tarjeta-bill-gates-->
+                <div class="col">
+                    <div class="card border-light">
+                        <a href="#" target="_blank">
+                            <img src="./img/bill.jpg" class="card-img-top" alt="foto Bill Gates">
+                        </a>
+                        <div class="card-body">
+                            <span class="badge text-bg-warning">JavaScript</span>
+                            <span class="badge text-bg-info">React</span>
+                            <h5 class="card-title">Bill Gates</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+                                voluptatibus
+                                perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellat ut similique
+                                incidunt?
+                                Ullam nobis sbeatae, corporis facilis veniam magni ratione!</p>
+                        </div>
+                    </div>
+                </div>
+                <!--tarjeta-adda-lovelace-->
+                <div class="col">
+                    <div class="card border-light">
+                        <a href="#" target="_blank">
+                            <img src="./img/ada.jpeg" class="card-img-top" alt="foto Adda Lovelace">
+                        </a>
+                        <div class="card-body">
+                            <span class="badge text-bg-secondary">Negocios</span>
+                            <span class="badge text-bg-danger">Startups</span>
+                            <h5 class="card-title">Adda Lovelace</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+                                voluptatibus
+                                perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellat ut similique
+                                incidunt?
+                                Ullam nobis beatae, corporis facilis veniam magni ratione!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--tarjeta-bsas-honolulu-->
+        <section id="fecha-y-lugar">
+            <div id="container-honolulu-card" class="card mt-3">
+                <div class="row g-0">
+                    <div id="honolulu-col-1" class="col-md-6 card-group">
+                        <img src="./img/honolulu.jpg" class="img-fluid rounded-start" alt="foto Honolulu">
+                    </div>
+                    <div id="honolulu-col-2" class="col text-light">
+                        <div class="card-body">
+                            <h2 class="card-title">Bs As - Octubre</h2>
+                            <p class="card-text">Buenos Aires es la provincia y localidad más grande del estado de
+                                Argentina, en los Estados Unidos Honolulu es la más sureña de entre las principales
+                                ciudades
+                                estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa
+                                sureste
+                                de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado
+                                consolidada que cubre toda la ciudad (aproximadamente 600km² de superficie).</p>
+                            <a href="#" target="_blank" class="btn btn-outline-light" id="btn-conoce-mas">Conoce más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--formulario-conviertete-en-orador-->
+        <section id="conviértete-en-orador">
+            <!--titulo-->
+            <div id="container-txt-top" class="container">
+                <p class="txt-titulo-1">conviérte en un</p>
+                <p class="txt-titulo-2">orador</p>
+            </div>
+            <!--formulario-oradores-->
+            <div id="container-form-orador" class="input-group">
+                <form id="formulario-oradores" class="container" action="crisrossi1989@gmail.com" method="post"
+                    enctype="text/plain">
+                    <p class="txt-titulo-form">Anótate como orador para dar una <span id="subrayado-ci">charla
+                            ignite</span>. Cuéntanos de qué quieres
+                        hablar!</p>
+                    <div class="row g-2">
+                        <div class="col-md">
+                            <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                        </div>
+                        <div class="col-md">
+                            <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                        </div>
+                    </div>
+                    <div id="form-coment" class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here"
+                            id="floatingTextarea2"></textarea>
+                        <label for="floatingTextarea2" class="text-muted text-start">
+                            <p class="fs-5">Sobre qué quieres hablar?</p>
+                        </label>
+                        <span class="text-muted text-start">
+                            <p>Recuerda incluir un título para tu charla</p>
+                        </span>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button id="btn-enviar" class="btn btn-success" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!--NUEVA-SECCIÓN-tickets-->
+        <section id="tickets">
+            <div id="container-venta-tikets">
+                <div id="container-cards-tickets" class="row row-cols-1 row-cols-md-3">
+                    <div class="col">
+                        <div class="card border-primary mb-3">
+                            <div class="card-body" id="tarjeta-estudiante">
+                                <p class="card-title fs-4 fw-semibold">Estudiante</p>
+                                <p class="card-text fs-5">Tienen un descuento</p>
+                                <p class="card-title fs-5 fw-semibold">80%</p>
+                                <p class="text-muted">*presentar documentación</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-success mb-3">
+                            <div class="card-body" id="tarjeta-trainee">
+                                <p class="card-title fs-4 fw-semibold">Trainee</p>
+                                <p class="card-text fs-5">Tienen un descuento</p>
+                                <p class="card-title fs-5 fw-semibold">50%</p>
+                                <p class="text-muted">*presentar documentación</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-warning mb-3">
+                            <div class="card-body" id="tarjeta-junior">
+                                <p class="card-title fs-4 fw-semibold">Junior</p>
+                                <p class="card-text fs-5">Tienen un descuento</p>
+                                <p class="card-title fs-5 fw-semibold">15%</p>
+                                <p class="text-muted">*presentar documentación</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--titulo-->
+                <div id="container-txt-top" class="container">
+                    <p class="txt-titulo-1">VENTA</p>
+                    <p class="txt-titulo-2">VALOR DE TICKET $200</p>
+                </div>
+                <!--form-JS-->
+                <div id="container-form-tickets" class="input-group">
+                    <form id="form-ticket" action="crisrossi1989@gmail.com" class="container" method="post"
+                        enctype="text/plain">
+                        <div class="row g-2">
+                            <div class="col-md">
+                                <input type="text" name="Nombre" class="form-control" placeholder="Nombre"
+                                    aria-label="Nombre">
+                            </div>
+                            <div class="col-md">
+                                <input type="text" name="Apellido" class="form-control" placeholder="Apellido"
+                                    aria-label="Apellido">
+                            </div>
+                        </div>
+                        <!--CORREO-->
+                        <div id="container-correo" class="d-grid col-12">
+                            <input type="email" class="form-control" placeholder="Correo" aria-label="Correo">
+                        </div>
+                        <!--CANTIDAD-Y-CATEGORIA-->
+                        <div id="container-cantidad-categoria" class="row g-2">
+                            <!--CANTIDAD-->
+                            <div class="form-group col-md">
+                                <label for="" class="form-label">Cantidad</label>
+                                <input id="cantidadTickets" type="number" class="form-control" placeholder="Cantidad"
+                                    step="1" min="1">
+                            </div>
+                            <!--CATEGORIA-->
+                            <div class="form-group col-md">
+                                <label class="form-label" for"">Categoria</label>
+                                <select id="categoriaDescuento" class="form-select" aria-label="Categoria">
+                                    <option value="0.20" selected>Estudiante</option>
+                                    <option value="0.50">Trainee</option>
+                                    <option value="0.85">Junior</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!--ALERT-->
+                        <div id="container-alert" class="form-row">
+                            <div class="form-group col-12">
+                                <div id="totalTickets" class="alert alert-primary" role="alert">Total a Pagar: $ </div>
+                            </div>
+                        </div>
+                        <!--Botones-BORRAR-y-RESUMEN-->
+                        <div id="container-botones" class="row g-2">
+                            <div class="col-md d-grid gap-2">
+                                <button id="btnBorrar" class="btn btn-primary" type="reset" onclick="borrar()">
+                                    Borrar
+                                </button>
+                            </div>
+                            <div class=" col-md d-grid gap-2">
+                                <button id="btnResumen" class="btn btn-primary" type="button" onclick="resumen()">
+                                    Resumen
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--navbar-bottom-->
+    <footer>
+        <div id="navbar-bottom" class="nav nav-pills nav-justified flex-column flex-sm-row">
+            <a class="nav-link" href="#">Preguntas frecuentes</a>
+            <a class="nav-link" href="#">Contáctanos</a>
+            <a class="nav-link" href="#">Prensa</a>
+            <a class="nav-link" href="#">Conferencias</a>
+            <a class="nav-link" href="#">Términos y condiciones</a>
+            <a class="nav-link" href="#">Privacidad</a>
+            <a class="nav-link" href="#">Estudiantes</a>
+        </div>
+    </footer>
+</body>
+
+</html>
